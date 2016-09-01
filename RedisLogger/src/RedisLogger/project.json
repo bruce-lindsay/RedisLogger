@@ -1,0 +1,23 @@
+﻿{
+  "version": "1.0.0-*",
+  "packOptions:": {
+    "licenceUrl": "https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders/blob/master/LICENSE",
+    "projectUrl": "https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders/"
+  },
+  "dependencies": {
+    "StackExchange.Redis": "1.1.604-alpha",
+    "Newtonsoft.Json": "9.0.1",
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.0",
+    "Microsoft.AspNetCore.Http.Abstractions": "1.0.0"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      }
+    }
+  }
+}
