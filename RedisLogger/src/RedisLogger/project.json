@@ -1,8 +1,10 @@
 ﻿{
-  "version": "1.0.0-*",
-  "packOptions:": {
-    "licenceUrl": "https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders/blob/master/LICENSE",
-    "projectUrl": "https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders/"
+  "version": "1.0.0-1",
+  "packOptions": {
+    "tags": [ "C#", "dotnetcore", "netcore", "logging", "redis" ],
+    "summary": "Redis Logging Library",
+    "owners": [ "Jeremy Simms", "Go Ahead Tours" ],
+    "licenseUrl": "https://opensource.org/licenses/MIT"
   },
   "dependencies": {
     "StackExchange.Redis": "1.1.604-alpha",
@@ -19,5 +21,10 @@
         }
       }
     }
+  },
+  "scripts": {
+    "postcompile": [
+      "dotnet pack --no-build --configuration %compile:Configuration%"
+    ]
   }
 }
