@@ -4,7 +4,8 @@
     "tags": [ "C#", "dotnetcore", "netcore", "logging", "redis" ],
     "summary": "Redis Logging Library",
     "owners": [ "Jeremy Simms", "Go Ahead Tours" ],
-    "licenseUrl": "https://opensource.org/licenses/MIT"
+    "licenseUrl": "https://opensource.org/licenses/MIT",
+    "projectUrl": "https://github.com/GoAheadTours/RedisLogger"
   },
   "dependencies": {
     "StackExchange.Redis": "1.1.604-alpha",
